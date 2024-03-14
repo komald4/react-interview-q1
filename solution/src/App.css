@@ -1,12 +1,3 @@
-.App {
-  text-align: center;
-  padding: 72px;
-}
-
-.App-logo {
-  transform: rotate(360deg);
-}
-
 .flex {
   display: flex;
   gap: 16px;
@@ -14,7 +5,7 @@
 
 table {
   width: 100%;
-  border: 5px solid #cccccc;
+  border: 1px solid #000000;
 }
 
 td {
@@ -22,15 +13,15 @@ td {
 }
 
 thead {
-  background-color: #bbbbbb;
+  background-color: #000000;
 }
 
 .tr-light {
-  background-color: #eeeeee;
+  background-color: #3f3f3f;
 }
 
 .tr-dark {
-  background-color: #dddddd;
+  background-color: #3f3f3f;
 }
 
 .input-label {
