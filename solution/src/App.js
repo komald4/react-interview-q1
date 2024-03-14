@@ -36,17 +36,19 @@ function App() {
   const handleChangeCountry = (e) => {
     setCountry(e.target.value);
   }
-
+//clear should not affect table
+//table would be nice to clear each row, not entire table
   const handleClearInputs = () => {
     setName("");
     setCountry(countryChoices[0]);
   }
-
+//error on form for blank field which is required
   const handleAdd = () => {
     if(!name) {
       setError('Name is empty');
       return;
     }
+// error message for user that name is already taken
     if(tableData.map(({name}) => name).includes(name)) {
       setError('This name has already been taken');
       return;
