@@ -18,10 +18,12 @@ thead {
 
 .tr-light {
   background-color: #3f3f3f;
+  border: 2px solid #000000; border-collapse: collapse 
 }
 
 .tr-dark {
   background-color: #3f3f3f;
+  border: 2px solid #000000; border-collapse: collapse 
 }
 
 .input-label {

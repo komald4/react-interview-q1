@@ -1,3 +1,4 @@
+import './App.css';
 import {useState, useEffect} from "react";
 import {getLocations} from "./mock-api/apis";
 
